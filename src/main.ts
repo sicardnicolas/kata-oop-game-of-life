@@ -1,5 +1,8 @@
+import { Board } from "./grid/board";
+
 function main() {
-  console.log('Hello world!');
+  const board = new Board();
+  board.display();
 }
 
 main();
